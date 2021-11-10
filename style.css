@@ -1,0 +1,50 @@
+h1 {
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px #000000;
+  text-align: center;
+}
+
+#countDownTimer {
+  font-size: 25px;
+}
+
+body {
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  color: rgb(44, 0, 95);
+}
+
+.button {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(212, 227, 255);
+  border-radius: 10px;
+  border-color: rgb(192, 232, 255);
+}
+
+.craps {
+  width: 90px;
+  height: 30px;
+  background-color: rgb(212, 227, 255);
+  border-radius: 10px;
+  border-color: rgb(192, 232, 255);
+}
+
+.img#logo {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 120px;
+  border-color: white;
+}
+
+audio::-webkit-media-controls-panel {
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: #b1d4e0;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button:hover {
+  background-color: rgba(177, 212, 224, 0.7);
+}
